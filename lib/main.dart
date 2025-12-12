@@ -11,7 +11,7 @@ class MonApplication extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Gmail_drawer',
-      home: const PageAcceuil(),
+      home: const PageProfil(),
         routes: {
         '/acceuil': (context) => const PageAcceuil(),
         '/profil': (context) => const PageProfil(),
